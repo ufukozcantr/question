@@ -1,17 +1,16 @@
 {
-    "name": "epigra/question",
+    "name": "ufukozcantr/question",
     "description": "It is cud support question.",
-    "keywords": ["question", "ufuk ozcan"],
-    "license": "MIT",
+    "type": "project",
     "homepage": "https://github.com/ufukozcantr/question.git",
-    "authors": [{
-        "name": "Ufuk Özcan",
-        "email": "ufukozcantr@gmail.com",
-        "role": "Developer"
-    }],
-    "require": {
-        
-    },
+    "authors": [
+        {
+            "name": "ufukozcantr",
+            "email": "ufukozcantr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": {
             "ufukozcantr\\Question\\": "src/"
@@ -25,10 +24,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ufukozcantr\\Question\\Providers\\QuestionServiceProvider"
+                "ufukozcantr\\Question\\Providers\\ServiceProvider"
             ],
             "aliases": {
-                
+                "Question": "ufukozcantr\\Question\\Facade"
             }
         }
     }
