@@ -1,6 +1,6 @@
 # question
 
-<p>Installation</p>
+<h1>Installation</h1>
 <p>Via Composer</p>
 
 <pre>composer require ufukozcantr/question</pre>
