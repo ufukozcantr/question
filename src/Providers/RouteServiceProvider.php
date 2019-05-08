@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Question\Providers;
+namespace ufukozcantr\Question\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
