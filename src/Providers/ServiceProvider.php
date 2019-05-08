@@ -1,11 +1,11 @@
 <?php
 
-namespace Modules\Question\Providers;
+namespace ufukozcantr\Question\Providers;
+namespace ubitcorp\Cities\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class QuestionServiceProvider extends ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Boot the application events.
