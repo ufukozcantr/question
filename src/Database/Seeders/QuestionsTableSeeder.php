@@ -17,14 +17,6 @@ class QuestionsTableSeeder extends Seeder
     {
         $faker = \Faker\Factory::create();
 
-        for($i = 0; $i < 5; $i++) {
-            User::create([
-                'name' => $faker->name,
-                'email' => $faker->email,
-                'password' => bcrypt('123qwe'),
-            ]);
-        }
-
         for($i = 0; $i < 100; $i++) {
             $options = [
                 $faker->bothify('Cevap ##??'),
