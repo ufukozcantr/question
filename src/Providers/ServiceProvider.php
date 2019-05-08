@@ -1,7 +1,6 @@
 <?php
 
 namespace ufukozcantr\Question\Providers;
-namespace ubitcorp\Cities\Providers;
 
 use Illuminate\Database\Eloquent\Factory;
 
