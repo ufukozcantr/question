@@ -1,6 +1,7 @@
 {
     "name": "ufukozcantr/question",
     "description": "It is cud support question.",
+    "license": "MIT",
     "homepage": "https://github.com/ufukozcantr/question.git",
     "authors": [
         {
@@ -10,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.2",
-        "another-vendor/package": "1.*"
+        "php": "^7.1",
+        "illuminate/support": "5.5.x|5.6.x|5.7.x|5.8.x",
     },
     "autoload": {
         "psr-4": {
