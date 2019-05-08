@@ -18,7 +18,9 @@
         }
     },
     "autoload-dev": {
-        
+        "psr-4": {
+            "ufukozcantr\\Question\\": "tests"
+        }
     },
     "extra": {
         "laravel": {
