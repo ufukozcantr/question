@@ -1,6 +1,8 @@
 {
-    "name": "ufuk/question",
+    "name": "ufukozcantr/question",
     "description": "It is cud support question.",
+    "type": "project",
+    "homepage": "https://github.com/ufukozcantr/question.git",
     "authors": [
         {
             "name": "ufukozcantr",
@@ -8,5 +10,25 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ufukozcantr\\Question\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ufukozcantr\\Question\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ufukozcantr\\Question\\Providers\\ServiceProvider"
+            ],
+            "aliases": {
+                "Question": "ufukozcantr\\Question\\Facade"
+            }
+        }
+    }
 }
