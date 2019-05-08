@@ -1,10 +1,10 @@
 <?php
 
-namespace Modules\Question\Database\Seeders;
+namespace ufukozcantr\Question\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use \Modules\Question\Entities\Question;
+use ufukozcantr\Question\Entities\Question;
 
 class QuestionsTableSeeder extends Seeder
 {
